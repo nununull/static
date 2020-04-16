@@ -6,9 +6,9 @@ const APP = {
 
             let scrollInfoVOList = [];
 
-            scrollInfoVOList.push({msg: "帮忙点下广告噢~", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
-                {msg: "谢谢亲啦~~", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"},
-                {msg: "（づ￣3￣）づ╭❤～", url: "https://mp.weixin.qq.com/s/omn3j5JBc-EzJY-7B8ysEg"},
+            scrollInfoVOList.push({msg: "点我😘帮忙点下广告噢~", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
+                {msg: "每天点一次就可以了噢~", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"},
+                {msg: "谢谢亲啦~~（づ￣3￣）づ╭❤～", url: "https://mp.weixin.qq.com/s/omn3j5JBc-EzJY-7B8ysEg"},
                 {msg: "♥看这里♥", url: "https://mp.weixin.qq.com/s/_09N7VoE7Wb-kjAUD0v-sw"},
                 {msg: "这是一条推荐~", url: "https://mp.weixin.qq.com/s/-GOU2rp-AbfNl96edjF81g"},
                 {msg: "推荐1", url: "https://mp.weixin.qq.com/s/vD1EA07mgR5U12JiOSWdPQ"},
@@ -36,6 +36,17 @@ const APP = {
             if (!scrollInfoVOList || scrollInfoVOList.length <= 0) {
                 return;
             }
+
+            // 增加初始控件
+            let scrollInfoNode = document.getElementById("scrollInfo");
+
+            let a1 = "<a href='"+ scrollInfoVOList[0].url +"' target='_blank' rel='nofollow noopener'>"+ scrollInfoVOList[0].msg +"</a>";
+            let div1 = document.createElement("div");
+            div1.innerHTML = a1;
+            scrollInfoNode.appendChild(div1);
+
+            // 显示控件
+            $($('.scroll-info')[0]).removeClass('hide');
 
             timerList[0] = setInterval(function () {
                 APP.SERVICE.scrollInfoShow(scrollInfoVOList);
@@ -69,16 +80,11 @@ const APP = {
 
                 let scrollInfoVO = scrollInfoVOList[index];
 
-                let a1 = "<a href='"+ scrollInfoVO.url +"' target='_blank' rel='nofollow noopener'>"+ scrollInfoVO.msg +"</a>";
                 let a2 = "<a href='"+ nextScrollInfoVO.url +"' target='_blank' rel='nofollow noopener'>"+ nextScrollInfoVO.msg +"</a>";
-
-                let div1 = document.createElement("div");
-                div1.innerHTML = a1;
 
                 let div2 = document.createElement("div");
                 div2.innerHTML = a2;
 
-                scrollInfoNode.appendChild(div1);
                 scrollInfoNode.appendChild(div2);
             } else {
                 // 更新标签值中的属性
