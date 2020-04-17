@@ -12,6 +12,10 @@
     border-bottom: 10px solid #FFF;
     border-top: 10px solid #FFF;
     border-radius: 10px 0 0 10px;
+	text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .scroll-info a {
