@@ -76,7 +76,7 @@ const APP = {
             let nextScrollInfoVO = scrollInfoVOList[nextIndex];
 
             // 获取节点下的子节点
-            if (scrollInfoNode.childNodes.length === 0) {
+            if (scrollInfoNode.childNodes.length === 1) {
 
                 let scrollInfoVO = scrollInfoVOList[index];
 
