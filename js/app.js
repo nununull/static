@@ -11,11 +11,11 @@ const APP = {
                 {msg: "谢谢亲啦~~（づ￣3￣）づ╭❤～", url: "https://mp.weixin.qq.com/s/omn3j5JBc-EzJY-7B8ysEg"},
                 {msg: "♥看这里♥", url: "https://mp.weixin.qq.com/s/_09N7VoE7Wb-kjAUD0v-sw"},
                 {msg: "每天点一次就可以了噢", url: "https://mp.weixin.qq.com/s/-GOU2rp-AbfNl96edjF81g"},
-                {msg: "这是一条推荐~", url: "https://mp.weixin.qq.com/s/vD1EA07mgR5U12JiOSWdPQ"},
-                {msg: "推荐1", url: "https://mp.weixin.qq.com/s/L0EJZ67drY7LiwfBc0PuZA"},
-                {msg: "推荐2", url: "https://mp.weixin.qq.com/s/F8spwjbtIZ-PbK-17tlG5Q"},
-                {msg: "推荐3", url: "https://mp.weixin.qq.com/s/HuRJ1yMXG-h-NBtEuRvqSg"},
-                {msg: "每天点一次就可以了噢~", url: "https://mp.weixin.qq.com/s/AunvipMAmM7vFGz-cII5Bg"},
+                {msg: "为防走丢，关注公众号", url: "https://mp.weixin.qq.com/s/vD1EA07mgR5U12JiOSWdPQ"},
+                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/L0EJZ67drY7LiwfBc0PuZA"},
+                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/F8spwjbtIZ-PbK-17tlG5Q"},
+                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/HuRJ1yMXG-h-NBtEuRvqSg"},
+                {msg: "关注不迷路~", url: "https://mp.weixin.qq.com/s/AunvipMAmM7vFGz-cII5Bg"},
             );
 
             return scrollInfoVOList;
