@@ -6,16 +6,8 @@ const APP = {
 
             let scrollInfoVOList = [];
 
-            scrollInfoVOList.push({msg: "点我😘帮忙点下广告噢~", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
-                {msg: "点我😘帮忙点下广告噢~", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"},
-                {msg: "谢谢亲啦~~（づ￣3￣）づ╭❤～", url: "https://mp.weixin.qq.com/s/omn3j5JBc-EzJY-7B8ysEg"},
-                {msg: "♥看这里♥", url: "https://mp.weixin.qq.com/s/_09N7VoE7Wb-kjAUD0v-sw"},
-                {msg: "每天点一次就可以了噢", url: "https://mp.weixin.qq.com/s/-GOU2rp-AbfNl96edjF81g"},
-                {msg: "为防走丢，关注公众号", url: "https://mp.weixin.qq.com/s/vD1EA07mgR5U12JiOSWdPQ"},
-                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/L0EJZ67drY7LiwfBc0PuZA"},
-                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/F8spwjbtIZ-PbK-17tlG5Q"},
-                {msg: "资源兜", url: "https://mp.weixin.qq.com/s/HuRJ1yMXG-h-NBtEuRvqSg"},
-                {msg: "关注不迷路~", url: "https://mp.weixin.qq.com/s/AunvipMAmM7vFGz-cII5Bg"},
+            scrollInfoVOList.push({msg: "关注公众号：资源兜", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
+                {msg: "防止走丢，关注不迷路", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"}
             );
 
             return scrollInfoVOList;
