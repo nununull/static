@@ -6,8 +6,8 @@ const APP = {
 
             let scrollInfoVOList = [];
 
-            scrollInfoVOList.push({msg: "关注公众号：资源兜", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
-                {msg: "防止走丢，关注不迷路", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"}
+            scrollInfoVOList.push({msg: "点我，点下广告~", url: "https://mp.weixin.qq.com/s/kTaYpWRRxzBYN4lSH5NfMQ"},
+                {msg: "谢谢啦~~", url: "https://mp.weixin.qq.com/s/QeyeyyKbR6eZ-LcqKKYShQ"}
             );
 
             return scrollInfoVOList;
